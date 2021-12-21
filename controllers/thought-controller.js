@@ -62,7 +62,33 @@ const thoughtController = {
         })
         .catch(err => res.json(err));
 
-    }
+    },
+
+    // DELETE thought by id
+    removeThought({ params }, res){
+        Thought.findOneAndDelete({ _id: params.id })
+        .then(dbThoughtData => {
+            if(!dbThoughtData){
+                return res.status(404).json({ message: 'No thought found with this id!' });
+            }
+            // remove ref to delete thought in user's thoughts
+            return User.findOneAndUpdate(
+                { _id: params.userId },
+                { $pull: { thoughts: params.Id } },
+                { new: true }
+            )
+        })
+        .then(dbUserData => {
+            if(!dbUserData){
+                res.status(404).json({ message: 'No user found with this id!' });
+                return;
+            }
+            res.json(dbUserData);
+        })
+        .catch(err => res.json(err));
+    },
+
+    
 
 
 }
