@@ -19,7 +19,10 @@ To run this project, clone this repository. Then, from root directory of the pro
   
 Click the following links to see this application in action!
     
-     
+[User Routes]()
+[Friend Routes]()
+[Thought Routes]()
+[Reaction Routes]()     
   
   
 ## [Questions](#Contents)
