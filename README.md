@@ -19,10 +19,13 @@ To run this project, clone this repository. Then, from root directory of the pro
   
 Click the following links to see this application in action!
     
-[User Routes]()
-[Friend Routes]()
-[Thought Routes]()
-[Reaction Routes]()     
+[GET, POST, PUT, DELETE User Routes](https://drive.google.com/file/d/1O6SUO-NaGOFWrHQc3NNCJOCjqu_ucD-S/view?usp=sharing)  
+
+[POST and DELETE Friend Routes](https://drive.google.com/file/d/1XQjPRXWsUa18ETzbjmgozNYac8o-0jOg/view?usp=sharing)  
+
+[GET, POST, PUT, DELETE Thought Routes](https://drive.google.com/file/d/1aJhRGHXh9qeF9ENbun1Rnv2wYnvPuDAS/view?usp=sharing)  
+
+[POST and DELETE Reaction Routes](https://drive.google.com/file/d/1xhSTs_BOiO207TLALYtMUAYIMw60rRbt/view?usp=sharing)
   
   
 ## [Questions](#Contents)
